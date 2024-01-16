@@ -262,12 +262,14 @@ main {
 .choose-container {
     text-align: center;
 
+
 }
 
 .card-1 {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
+    width: 48%;
 
 
 }
@@ -276,6 +278,7 @@ main {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
+    width: 48%;
 
 
 }
@@ -284,18 +287,19 @@ main {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-
-
+    width: 48%;
 
 
 }
 
 .card-container {
-    /* width: 100%; */
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 20px;
     gap: 24px;
+
 
 }
 
@@ -323,9 +327,149 @@ main {
 
 }
 
+/* newsletter styles */
+.news-letter-section {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.news-letter-container {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    /* width: 45%; */
+    padding: 40px;
+}
+
+.news-letter-container .news-letter-form {
+    width: 100%;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form input {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 15px;
+    border: none;
+    margin-bottom: 16px;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.form button {
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    padding: 15px;
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.news-letter-img {
+    /* width: 55%; */
+
+}
+
+.news-letter-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
 
 
+}
 
+.news-letter-description {
+    color: #5A5A5D;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.news-letter-img img {
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.news-letter-border {
+    border: 1px solid rgba(19, 19, 24, 0.10);
+    margin-bottom: 24px;
+
+
+}
+
+/* footer styles */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+.footer-img img, .travel-title{
+    margin-top: 110px;
+    
+
+}
+
+.travel-title {
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+   
+
+}
+
+.travel-color {
+    color: #FF5400;
+    font-size: 32px;
+    font-weight: 800;
+}
+.footer-description{
+    color: #5A5A5D;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+margin-top: 16px;
+margin-bottom: 32px;
+width: 50%;
+margin-left: 25%;
+}
+
+.footer-hr{
+    border: 1px solid rgba(19, 19, 24, 0.10);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 60%;
+    margin-left: 20%;
+    
+
+}
+.footer-reserved{
+    color: #131318;
+font-size: 16px;
+font-weight: 300;
+text-align: center;
+margin-bottom: 110px;
+
+}
 
 
 
@@ -490,8 +634,31 @@ main {
         margin-left: auto;
     }
 
-    .card-container {
-        grid-template-columns: auto;
+    .card-container,
+    .news-letter-section,
+    .form {
+        flex-direction: column;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
+        width: 100%;
+    }
+
+    /* newsletter styles */
+    .news-letter-section {
+        margin-top: 24px;
+    }
+
+    .news-letter-container .news-letter-form {
+        width: 100%;
+    }
+
+    .news-letter-img img {
+        width: 100%;
+        height: 100%;
+
     }
 
 
