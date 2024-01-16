@@ -62,8 +62,9 @@ nav li a {
     justify-content: center;
     align-items: center;
     min-height: 750px;
-    /* margin-top: 50px; */
+    margin-top: 50px;
     position: relative;
+    margin-left: 20px;
     /* margin: 50px 130px; */
 }
 
@@ -84,8 +85,7 @@ nav li a {
 
 .banner-conatiner {
     width: 90%;
-    /* margin:130px; */
-    margin: 50px 130px;
+    margin:auto;
 }
 
 .banner-title {
@@ -197,6 +197,10 @@ main {
     margin-bottom: 24px;
     /* width: 525px; */
 }
+.tour-container ul{
+        margin-left: 30px;
+}
+
 
 .tour-end-description {
     color: #5A5A5D;
@@ -213,6 +217,7 @@ main {
 /* mobile device responsive */
 
 @media screen and (max-width:600px) {
+
     nav {
         flex-direction: column;
     }
@@ -238,17 +243,85 @@ main {
     .nav-title {
         font-size: 21.543px
     }
+    /* banner section */
+    
+    
+    .banner{
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        min-height: 500px;
+        margin-left: 5px;
+        
 
-    .banner {
-        width: 100%;
-        height: 100%;
+       
     }
+
+    .select-container{
+        grid-template-columns: none;
+        padding: 10px;
+        min-height: 300px;
+        margin: 16px;
+        
+
+    }
+    .banner-title{
+        font-size: 22px;
+        margin-top: 32px;
+
+    }
+    .banner-description{
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 48px;
+
+    }
+
+    
     /* tour section */
+    main{
+        margin: auto;
+
+    }
     .tour-section{
         flex-direction: column;
+        align-items: normal;
     }
     .tour-img{
         width: 100%;
         margin: 0;
     }
+    .tour-section{
+        flex-direction: column;
+    }
+    .tour-container {
+        width: 100%;
+    
+    }
+    .tour-title{
+        font-size: 20px;
+        margin-top: 24px;
+
+    
+    }
+    .tour-descriotion{
+        font-size: 14px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .tour-container li{
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .tour-container ul{
+        margin-left: 20px;
+    }
+    .tour-end-description{
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+    .tour-img{
+        margin-top: -70px;
+    }
+   
 }
