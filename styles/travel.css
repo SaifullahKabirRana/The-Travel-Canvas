@@ -417,10 +417,6 @@ main {
     font-weight: 800;
 }
 
-.news-letter-img {
-    /* width: 55%; */
-
-}
 
 .news-letter-title {
     color: #131318;
@@ -793,6 +789,9 @@ main {
 
     .travel-title {
         font-size: 21.543px
+    }
+    .travel-color {
+        font-size: 21.543px;   
     }
 
     .footer-description {
