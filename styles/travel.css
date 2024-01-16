@@ -216,6 +216,7 @@ main {
 
 /* destination-styles */
 
+
 .destination-title {
     color: #131318;
     text-align: center;
@@ -236,6 +237,89 @@ main {
 .destination-img img {
     margin: 12px;
     border-radius: 16px;
+
+}
+
+/* choose section */
+.choose-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+.choose-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 34px;
+    margin-bottom: 48px;
+
+}
+
+.choose-container {
+    text-align: center;
+
+}
+
+.card-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+
+
+}
+
+.card-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+
+
+}
+
+.card-3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+
+
+
+
+}
+
+.card-container {
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    gap: 24px;
+
+}
+
+.card-container img {
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.card-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
+
+.card-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 32px;
+    margin-bottom: 32px;
+
 
 }
 
@@ -387,6 +471,29 @@ main {
         height: 100%;
     }
 
-    
+    /* choose section */
+    .choose-title {
+        color: #131318;
+        font-size: 20px;
+        font-weight: 800;
+        margin-top: 24px;
+        margin-bottom: 16px;
+
+    }
+
+    .choose-description {
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 14px;
+        font-weight: 400;
+        width: 100%;
+        margin-bottom: 18px;
+        margin-left: auto;
+    }
+
+    .card-container {
+        grid-template-columns: auto;
+    }
+
+
 
 }
