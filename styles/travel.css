@@ -13,6 +13,9 @@ nav {
     align-items: center;
     margin-top: 50px;
 }
+.frame-icon{
+    display: none;
+}
 
 nav>ul {
     display: flex;
@@ -166,6 +169,7 @@ main {
 
 .tour-container {
     width: 65%;
+    
 
 }
 
@@ -568,7 +572,7 @@ main {
 
     nav>ul {
         /* flex-direction: column; */
-        /* margin-left: 10px; */
+        margin-left: 10px;
         margin: auto;
         gap: 10px;
     }
@@ -600,6 +604,7 @@ main {
         align-items: flex-start;
         min-height: 500px;
         margin-left: 5px;
+        background-position: center;
 
 
 
