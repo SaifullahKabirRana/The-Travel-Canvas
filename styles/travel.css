@@ -13,7 +13,8 @@ nav {
     align-items: center;
     margin-top: 50px;
 }
-.frame-icon{
+
+.frame-icon {
     display: none;
 }
 
@@ -169,7 +170,7 @@ main {
 
 .tour-container {
     width: 65%;
-    
+
 
 }
 
@@ -184,27 +185,27 @@ main {
 
 .tour-title {
     color: #131318;
-    font-size: 2.5rem;
+    font-size: 2.58rem;
     font-weight: 800;
-    
+
+
 
 }
 
 .tour-descriotion {
     color: rgba(19, 19, 24, 0.70);
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 400;
-    line-height: 26px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-top: 40px;
+    margin-bottom: 35px;
     /* width: 577px; */
 }
 
 .tour-container li {
     color: rgba(19, 19, 24, 0.70);
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 400;
-    margin-bottom: 24px;
+    margin-bottom: 28px;
     /* width: 525px; */
 }
 
@@ -215,7 +216,7 @@ main {
 
 .tour-end-description {
     color: #5A5A5D;
-    font-size: 16px;
+    font-size: 1.4rem;
     font-weight: 400;
     /* width: 530px; */
     margin-bottom: 32px;
@@ -364,6 +365,90 @@ main {
 
 
 }
+
+/* group travel section */
+.group-travel-greeting {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.group-travel-title {
+    color: #131318;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+.group-travel-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 28px;
+
+}
+
+.group-travel-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.group-travel-card-1,
+.group-travel-card-2,
+.group-travel-card-3, 
+.group-travel-card-4  {
+    /* border: 1px solid red; */
+    
+    text-align: center;  
+}
+.group-travel-card-1 img,
+.group-travel-card-2 img,
+.group-travel-card-3 img, 
+.group-travel-card-4 img{
+    border: 1px solid white;
+    border-radius: 16px;
+}
+
+.group-travel-card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.name-card-title{
+    color:  #131318;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 18px;
+    
+}
+.name-card-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+.travel-btn{
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 18px 26px;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 24px;
+    
+}
+
+
 
 /* newsletter styles */
 .news-letter-section {
@@ -591,7 +676,8 @@ main {
     .nav-title {
         font-size: 21.543px
     }
-    .travel{
+
+    .travel {
         font-size: 21.534px;
     }
 
@@ -742,6 +828,52 @@ main {
     .card-3 {
         width: 100%;
     }
+    /* group travel section */
+    .group-travel-container {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .group-travel-card{
+        grid-template-columns: 1fr;
+    }
+    .group-travel-greeting {
+        color: #131318;
+        font-size: 1.8rem;
+        font-weight: 800;
+    }
+    
+    .group-travel-title {
+        color: #131318;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 14px;
+    }
+    
+    .group-travel-description {
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 0.9rem;
+        font-weight: 400;
+        margin-left:auto;
+        width: 100%;
+        margin-bottom:24px;
+    
+    }
+    .name-card-title{
+        font-size: 1.5rem;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        
+    }
+    .name-card-description{
+      font-size: 1rem;
+    }
+    .travel-btn{
+        padding: 16px 24px;
+        margin-top: 18px;
+        margin-bottom: 12px;
+        
+    }
 
     /* newsletter styles */
     .news-letter-section {
@@ -801,8 +933,9 @@ main {
     .travel-title {
         font-size: 21.543px
     }
+
     .travel-color {
-        font-size: 21.543px;   
+        font-size: 21.543px;
     }
 
     .footer-description {
