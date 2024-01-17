@@ -47,6 +47,7 @@ nav li a {
     color: #131318;
     font-size: 2.25rem;
     font-weight: 800;
+    margin-left: 20px;
 }
 
 .travel {
@@ -598,6 +599,7 @@ main {
     color: #131318;
     font-size: 32px;
     font-weight: 800;
+    margin-left: 20px;
 
 
 }
@@ -684,7 +686,10 @@ main {
     }
 
     .nav-title {
-        font-size: 21.543px
+        font-size: 21.543px;
+        margin-left: 10px;
+       
+    
     }
 
     .travel {
@@ -728,6 +733,7 @@ main {
     /* tour section */
     main {
         margin: auto;
+        
 
     }
 
@@ -941,7 +947,8 @@ main {
     }
 
     .travel-title {
-        font-size: 21.543px
+        font-size: 21.543px;
+        margin-left: 10px;
     }
 
     .travel-color {
@@ -974,13 +981,7 @@ main {
         text-align: center;
         padding-bottom: 32px;
 
-
     }
-
-
-
-
-
 
 
 }
