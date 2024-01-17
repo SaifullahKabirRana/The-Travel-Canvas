@@ -18,7 +18,7 @@ nav {
     display: none;
 }
 
-nav>ul {
+nav > ul {
     display: flex;
     margin-right: 83px;
 
@@ -639,8 +639,10 @@ main {
 
 }
 
-.footer-icon {
-    margin-left: 45%;
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 
 }
 
@@ -652,25 +654,33 @@ main {
 @media screen and (max-width:600px) {
 
     nav {
-        flex-direction: column;
+        /* display: block; */
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
     }
 
     nav>ul {
         /* flex-direction: column; */
-        margin-left: 10px;
+        /* margin-left: 10px;
         margin: auto;
-        gap: 10px;
+        gap: 10px; */
+        display: none;
     }
-
-    nav li {
-        margin: auto;
-        font-size: 14px;
-
+    .hide{
+        display: block;
+        /* margin-right: 50px; */
+        /* margin-left:30px ; */
+        padding-right: 30px;
     }
 
     .img-title {
         margin: 10px;
         margin-bottom: 20px;
+    }
+    .img-title img{
+        width: 60px;
+        padding-left: 20px;
     }
 
     .nav-title {
@@ -692,8 +702,6 @@ main {
         margin-left: 5px;
         background-position: center;
 
-
-
     }
 
     .select-container {
@@ -701,8 +709,6 @@ main {
         padding: 10px;
         min-height: 300px;
         margin: 16px;
-
-
     }
 
     .banner-title {
@@ -791,6 +797,7 @@ main {
         margin: auto;
         width: 100% !important;
         margin-bottom: 16px;
+        height: 200px;
 
     }
 
@@ -929,6 +936,9 @@ main {
     .travel-title {
         margin-top: 33px;
     }
+    .footer-img img{
+        width: 35px;
+    }
 
     .travel-title {
         font-size: 21.543px
@@ -967,10 +977,7 @@ main {
 
     }
 
-    .footer-icon {
-        margin-left: 25%;
 
-    }
 
 
 
